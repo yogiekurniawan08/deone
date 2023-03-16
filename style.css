@@ -463,6 +463,9 @@ button:hover {
   width: 50px;
   vertical-align: middle;
   margin-right: 5px;
+  padding: 5px;
+  background-color: rgb(240, 248, 254);
+  border-radius: 5px;
 }
 
 .footer .footer-copyright {
@@ -550,7 +553,6 @@ button:hover {
   .footer .footer-left,
   .footer .footer-center,
   .footer .footer-right {
-    display: block;
     width: 100%;
   }
 }
