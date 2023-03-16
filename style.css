@@ -300,9 +300,19 @@ button:hover {
     padding-left: 20px;
   }
 
-  .card-desc p {
-    font-size: 25px;
-  }
+    .card-image {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-title a{ 
+        font-size: 30px;
+        text-align: center;
+    }
+    .card-desc p {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 /* form */
