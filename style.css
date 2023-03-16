@@ -70,14 +70,14 @@ button:hover {
   border-radius: 3px;
 }
 .btn-primary {
-  background-color: crimson;
-  border: 2px solid crimson;
+  background-color: #e50914;
+  border: 2px solid #e50914;
   color: #fff;
 }
 .btn-primary:hover {
   background-color: transparent;
   transition: all 0.3s ease;
-  color: crimson;
+  color: #e50914;
 }
 /* ============= BANNER =================== */
 #banner {
@@ -297,22 +297,22 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-/*     padding-left: 20px; */
+    /*     padding-left: 20px; */
   }
 
-    .card-image {
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .card-title a{ 
-        font-size: 30px;
-        text-align: center;
-    }
-    .card-desc p {
-        font-size: 20px;
-        text-align: center;
-    }
+  .card-image {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-title a {
+    font-size: 30px;
+    text-align: center;
+  }
+  .card-desc p {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 /* form */
@@ -376,26 +376,26 @@ button:hover {
 }
 
 .btn-submit {
-    height: 30px;
-    width: 50%;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    background-color:rgba(0, 0, 0, 0.1);
-    padding: 0 5px;
-    font-weight: normal;
-    font-size: 15px;
+  height: 30px;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0 5px;
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .btn-submit:hover {
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.15);
-    position: relative;
-    top: -5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: relative;
+  top: -5px;
 }
 
 .btn-submit:active {
-    top: 0;
+  top: 0;
 }
 
 @media (max-width: 1000px) {
@@ -424,139 +424,138 @@ button:hover {
 
 /* footer */
 .footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 50px;
-    margin-top: 80px;
-    font-family: "Poppins", sans-serif;
+  background-color: #0f0f0f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+}
+.footer .footer-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .footer .footer-left {
-    width: 30%;
+  width: 30%;
 }
 
-.footer-left h3 {
-    color: #fff;
-    margin: 0px;
-    padding-bottom: 10px;
+.footer-left h4 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 10px;
 }
-
 .pembayaran {
-    width: 100%;
+  width: 100%;
 }
 
 .pembayaran img {
-  width: 20%;
+  width: 50px;
   vertical-align: middle;
+  margin-right: 5px;
 }
 
 .footer .footer-copyright {
-    color: #fff;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0px;
-    padding-top: 30%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 .footer .footer-center {
-    width: 30%;
+  width: 30%;
 }
-
-.footer .footer-about {
-    line-height: 20px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0px;
-}
-
-
-.footer .footer-media {
-    margin-top: 10px;
-}
-
-.footer .footer-media a {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    line-height: 50px;
-    text-align: center;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-.footer .footer-media a:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
 .footer .footer-right {
-    width: 35%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-right div {
+  display: flex;
+  gap: 15px;
 }
 
 .footer .footer-right i {
-    background-color: #000;
-    color: #000;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: right;
-    line-height: 42px;
-    /* margin: 10px 15px; */
-    vertical-align: middle;
+  background-color: rgba(225, 225, 225, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: right;
+  line-height: 42px;
+  vertical-align: middle;
 }
 
 .footer .footer-right i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
+  font-size: 17px;
+  line-height: 38px;
 }
 
 .footer .footer-right p {
-    display: inline-block;
-    color: #000;
-    vertical-align: middle;
-    margin: 0px;
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0px;
 }
-
-/* .footer .footer-right p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-} */
 
 .footer .footer-right p a {
-    color: rgb(240, 248, 254);
-    text-decoration: none;
+  color: rgb(240, 248, 254);
+  text-decoration: none;
 }
 
-@media (max-width: 1000px) {
-  .footer-center {
-    margin-top: 25px;
-  }
+.footer .footer-about {
+  line-height: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.footer .footer-media {
+  margin-top: 10px;
+}
+
+.footer .footer-media a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {
-    .footer .footer-left,
-    .footer .footer-center,
-    .footer .footer-right {
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
     display: block;
     width: 100%;
+  }
 }
+@media (max-width: 670px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
