@@ -10,14 +10,14 @@ header {
   width: 100%;
   position: fixed;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 .logo {
@@ -396,6 +396,7 @@ button:hover {
 
 .btn-submit:active {
     top: 0;
+}
 
 @media (max-width: 1000px) {
   .form-wrapper {
@@ -422,10 +423,6 @@ button:hover {
 }
 
 /* footer */
-footer {
-    bottom: 0;
-}
-
 .footer {
     background-color: rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
@@ -434,6 +431,7 @@ footer {
     font: bold 16px sans-serif;
     padding: 50px;
     margin-top: 80px;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer .footer-left,
@@ -443,30 +441,23 @@ footer {
     vertical-align: top;
 }
 
-@media (max-height:800px) {
-    header {
-        padding-top: 40px;
-    }
-}
-
 .footer .footer-left {
     width: 30%;
 }
 
-.footer h3 {
+.footer-left h3 {
     color: #fff;
     margin: 0px;
-    padding-bottom: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
 }
 
-.footer .footer-left img {
-    width: 30%;
-    vertical-align: middle;
-}
-
-.footer .footer-left .pembayaran {
+.pembayaran {
     width: 100%;
+}
+
+.pembayaran img {
+  width: 20%;
+  vertical-align: middle;
 }
 
 .footer .footer-copyright {
@@ -491,11 +482,11 @@ footer {
 
 
 .footer .footer-media {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .footer .footer-media a {
-    display: block;
+    display: inline-block;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -553,6 +544,12 @@ footer {
 .footer .footer-right p a {
     color: rgb(240, 248, 254);
     text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .footer-center {
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 800px) {
